@@ -4,7 +4,6 @@ import time
 
 app = Chalice(app_name='helloworld')
 
-
 @app.route('/')
 def index():
     url = 'https://v2.jokeapi.dev/joke/Any'
