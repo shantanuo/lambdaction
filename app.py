@@ -1,7 +1,6 @@
 from chalice import Chalice
 import requests
 import time
-
 app = Chalice(app_name='helloworld')
 
 @app.route('/')
